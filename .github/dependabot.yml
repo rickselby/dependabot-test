@@ -1,0 +1,18 @@
+version: 2
+updates:
+  - package-ecosystem: bundler
+    directory: gemfile/
+    allow:
+      - dependency-type: "all"
+    schedule:
+      interval: daily
+    versioning-strategy: increase
+
+
+  - package-ecosystem: bundler
+    directory: gemspec/
+    allow:
+      - dependency-type: "all"
+    schedule:
+      interval: daily
+    versioning-strategy: increase
