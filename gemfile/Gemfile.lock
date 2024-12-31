@@ -1,4 +1,5 @@
 GEM
+  remote: https://rubygems.org/
   specs:
     ast (2.4.2)
     json (2.7.1)
@@ -9,7 +10,7 @@ GEM
       racc
     racc (1.7.3)
     rainbow (3.1.1)
-    regexp_parser (2.9.0)
+    regexp_parser (2.10.0)
     rexml (3.2.6)
     rubocop (1.59.0)
       json (~> 2.3)
